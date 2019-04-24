@@ -1,6 +1,8 @@
 import {makeEmail} from './practice 1 (makeEmail)'
 import {assertEquals} from './practice 3 (assertEquals)'
 
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
 
 /*	
     Write the function to format an email based on an array

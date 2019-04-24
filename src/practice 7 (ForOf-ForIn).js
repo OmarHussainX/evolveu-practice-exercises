@@ -1,6 +1,9 @@
 import {assertEquals} from './practice 3 (assertEquals)'
 import {makeEmailObj} from './practice 5 (makeEmailObj)'
 
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 const data = {
 	staff: [
 		{fname:"Jane", lname:"Smith", balance:10},
@@ -44,7 +47,7 @@ assertEquals('Jane.Smith@evolveu.ca', emailForOf[0]);
 assertEquals('Olivia.Notly@evolveu.com', emailForOf[3]);
 assertEquals('Benjamin.Amis@evolveu.ca', emailForOf[6]);
 
-console.log('-----emailForIn')
+console.log('\n-----emailForIn')
 const emailForIn = loopWithForIn(data.staff);
 // console.log(emailForIn);
 assertEquals('Jane.Smith@evolveu.ca', emailForIn[0]);

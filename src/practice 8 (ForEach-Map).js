@@ -1,6 +1,9 @@
 import {assertEquals} from './practice 3 (assertEquals)'
 import {makeEmailObj} from './practice 5 (makeEmailObj)'
 
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 const data = {
 	staff: [
 		{fname:"Jane", lname:"Smith", balance:10},
@@ -37,7 +40,7 @@ assertEquals('Olivia.Notly@evolveu.com', emailWithEach[3]);
 assertEquals('Benjamin.Amis@evolveu.ca', emailWithEach[6]);
 
 
-console.log('-----emailWithMap')
+console.log('\n-----emailWithMap')
 const emailWithMap = loopWithMap(data.staff);
 // console.log(emailWithMap);
 assertEquals('Jane.Smith@evolveu.ca', emailWithMap[0]);

@@ -1,3 +1,6 @@
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 const people = [
 	{fname:"Alex", lname:"Smith", province:"BC", age:33},
 	{fname:"Angela", lname:"Jones", province:"AB", age:61},
@@ -81,6 +84,6 @@ let processPeople = function(data, callback) {
 // function as an anonymous function
 processPeople(people, westerner => {
     if (westerner.age > 25) console.log(
-        `${westerner.fname} ${westerner.lname})`
+        `${westerner.fname} ${westerner.lname}`
     )
 })

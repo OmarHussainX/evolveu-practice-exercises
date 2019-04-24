@@ -1,6 +1,9 @@
 import {assertEquals} from './practice 3 (assertEquals)'
 import {makeEmailObj} from './practice 5 (makeEmailObj)'
 
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 const data = {
 	staff: [
 		{fname:"Jane", lname:"Smith", balance:10},
@@ -28,7 +31,6 @@ const loopStaff = (staffArray) => {
 // and before this comment ---
 
 
-console.log('-----loopStaff')
 const staffEmail = loopStaff(data.staff)
 // console.log(staffEmail)
 assertEquals('Jane.Smith@evolveu.ca', staffEmail[0])

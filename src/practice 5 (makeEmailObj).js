@@ -1,5 +1,7 @@
 import {assertEquals} from './practice 3 (assertEquals)'
 
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
 
 /*	
 	Write the function to format an email based on an object / map
@@ -15,6 +17,6 @@ export const makeEmailObj = nameObj => {
 
 
 const arrayLarry = {fname:'larry', lname:'shumlich'}
-// assertEquals('larry.shumlich@evolveu.ca', makeEmailObj(arrayLarry))
-// assertEquals('bill.smith@evolveu.ca', makeEmailObj({fname:'bill',lname:'smith'}))
-// assertEquals('amy.jones@evolveu.ca', makeEmailObj({fname:'amy',lname:'jones'}))
+assertEquals('larry.shumlich@evolveu.ca', makeEmailObj(arrayLarry))
+assertEquals('bill.smith@evolveu.ca', makeEmailObj({fname:'bill',lname:'smith'}))
+assertEquals('amy.jones@evolveu.ca', makeEmailObj({fname:'amy',lname:'jones'}))

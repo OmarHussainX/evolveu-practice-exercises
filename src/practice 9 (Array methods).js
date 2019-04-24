@@ -1,3 +1,6 @@
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 const data = {
 	staff: [
 		{fname:"Jane", lname:"Smith", balance:10},
@@ -109,7 +112,6 @@ let tot = data.staff.reduce((acc, cur, i, staffArray) => {
     return acc + cur.balance
 }, 0)
 
-console.log(tot)
 assertEquals(tot, 3823)
 
 // -------------------------------------------------

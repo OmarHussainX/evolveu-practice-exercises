@@ -1,3 +1,6 @@
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 /*
 	--- make me an email
 	Write the function that will make this code work.
@@ -23,10 +26,10 @@ if (larryEmail != shouldBeLarryEmail) {
 }
 
 
-// console.log("Larry:", larryEmail)
+console.log("Larry:", larryEmail)
 
-// console.log("Jane:", makeEmail("jane", "lee"))
-// console.log("Bill:", makeEmail("jane", "lee"))
-// console.log("Sam:", makeEmail("jane", "lee"))
+console.log("Jane:", makeEmail("jane", "lee"))
+console.log("Bill:", makeEmail("jane", "lee"))
+console.log("Sam:", makeEmail("jane", "lee"))
 
 

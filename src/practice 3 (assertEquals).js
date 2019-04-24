@@ -1,3 +1,6 @@
+const path = require('path');
+console.log(`\n----- Executing file: ${path.basename(__filename)}-----\n`)
+
 /*	
 	Write the function that will create this output:
 
@@ -30,10 +33,10 @@ export {assertEquals}
 
 // and before this comment ---
 
-// assertEquals("a","b")
-// assertEquals("a","a")
-// assertEquals(1,2)
-// assertEquals(2,2)
-// assertEquals("2",2)
-// assertEquals("This value","This value")
+assertEquals("a","b")
+assertEquals("a","a")
+assertEquals(1,2)
+assertEquals(2,2)
+assertEquals("2",2)
+assertEquals("This value","This value")
 
