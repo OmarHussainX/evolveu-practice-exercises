@@ -101,6 +101,6 @@ let determineTotal = function() {
     })
 
     console.log(
-        `\ntotal # of people (in AB/BC): ${numPeople}, total age: ${totalAge}, avg age: ${(totalAge/numPeople).toFixed(2)}`)
+        `\ntotal # of people (in AB/BC): ${numPeople}, total age: ${totalAge}, average age: ${(totalAge/numPeople).toFixed(2)}`)
 }
 determineTotal()
