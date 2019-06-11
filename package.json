@@ -8,5 +8,8 @@
         "@babel/cli": "^7.2.3",
         "@babel/core": "^7.3.4",
         "@babel/preset-env": "^7.3.4"
+    },
+    "dependencies": {
+        "eslint": "^5.16.0"
     }
 }

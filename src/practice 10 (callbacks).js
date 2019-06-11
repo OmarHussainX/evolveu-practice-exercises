@@ -79,7 +79,7 @@ let processPeople = function(data, callback) {
 }
 
 
-//
+// Part 1 (April 5)
 // Here is invoking the processPeople function.  Write the callback
 // function as an anonymous function
 processPeople(people, westerner => {
@@ -87,3 +87,20 @@ processPeople(people, westerner => {
         `${westerner.fname} ${westerner.lname}`
     )
 })
+
+
+// Part 2 (April 29)
+// Write a function which logs to the console the total number of people, total age, and average age of people from BC and Alberta only, regardless of age. 
+let determineTotal = function() {
+    let numPeople = 0
+    let totalAge = 0
+
+    processPeople(people, westerner => {
+        numPeople++
+        totalAge += westerner.age
+    })
+
+    console.log(
+        `\ntotal # of people (in AB/BC): ${numPeople}, total age: ${totalAge}, avg age: ${(totalAge/numPeople).toFixed(2)}`)
+}
+determineTotal()
