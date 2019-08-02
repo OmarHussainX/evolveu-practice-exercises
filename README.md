@@ -1,5 +1,5 @@
 # EvolveU practice exercises
-Showcasing solutions for  practice exercises assigned in EvolveU's [Full Stack Developer Program](https://www.evolveu.ca/program).
+](https://www.evolveu.ca/program).
 
 
 
