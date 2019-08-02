@@ -5,9 +5,9 @@ Showcasing solutions for  practice exercises assigned in EvolveU's [Full Stack D
 
 
 
-## How To Use
+## Installation
 
-You'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) and [npm](http://npmjs.com) installed ([Node.js](https://nodejs.org/en/download/) includes [npm](http://npmjs.com))
+__Prerequsites:__ [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) and [npm](http://npmjs.com) installed ([Node.js](https://nodejs.org/en/download/) includes [npm](http://npmjs.com))
 
 ```bash
 # Clone repository
@@ -19,7 +19,7 @@ $ cd evolveu-practice-exercises
 # Install dependencies
 $ npm install
 
-# Transpile ES6/JS code using [Babel](https://babeljs.io/) 
+# Transpile JS code using Babel(https://babeljs.io/) 
 $ npm run build
 
 # Enter transpiled code folder
