@@ -2,7 +2,8 @@
 Solutions for  practice JS exercises assigned in EvolveU's [Full Stack Developer Program](https://www.evolveu.ca/program).
 
 
-
+&nbsp;
+&nbsp;
 
 
 ## Installation
